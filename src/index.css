@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #0c0f1d;
+  --teal: #99efe4;
+  --white: #f6f6f6;
+  --purple: #c484f6;
+}
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.h-fill {
+  height: -webkit-fill-available;
+}
+
+.border-neo-brutalism-purple {
+  border: 3px solid var(--purple);
+  box-shadow: -4px -4px 0 0 var(--purple);
+
+  border-radius: 12px;
+}
+
+:hover.border-neo-brutalism-purple {
+  border: 3px solid var(--teal);
+  box-shadow: 4px 4px 0 0 var(--teal);
+}
+
+.border-neo-brutalism {
+  border: 3px solid var(--black);
+  box-shadow: 4px 4px 0 0 var(--black);
+  border-radius: 12px;
+  justify-content: center
+}
+
+.border-neo-brutalism-sm {
+  border: 3px solid var(--black);
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  border-radius: 12px;
+  justify-content: center
+}
