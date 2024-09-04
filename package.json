@@ -1,11 +1,11 @@
 {
-  "name": "react-ts",
-  "private": true,
-  "version": "0.0.0",
+  "name": "tusk-dapp",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:walrus": "npm run build && npx tsx ./scripts/walrus.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },
